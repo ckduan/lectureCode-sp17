@@ -31,7 +31,8 @@ public class SLList {
 
     /** Returns the number of items in the list using recursion. */
     public int size() {
-        /* Your Code Here! */
+        if (first.next.equals(null)) return 1;
+        else return 1 + first.next.size;
     }
 
 }
